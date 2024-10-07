@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content-top {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.top-left {
+    display: flex;
+    justify-content: space-around;
+    flex: 5;
+}
+
+.top-right {
+    display: flex;
+    flex: 5;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.left {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-right: 220px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.icon_eye {
+    background: url("../image/icon_eye.png") no-repeat center;
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+}
+
+.icon_cart {
+    background: url("../image/icon_cart.png") no-repeat center;
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+}
+
+.icon_user {
+    background: url("../image/icon_user.png") no-repeat center left;
+    background-size: 16px;
+    padding-left: 20px;
+}
