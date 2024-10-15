@@ -1,108 +1,921 @@
-* {
-    padding: 0;
+
+body {
     margin: 0;
-    box-sizing: border-box;
+    line-height: normal;
 }
 
-.body {
-    width: 100vw;
-    height: 100vh;
+.studio {
+    font-family: 'Averta Demo PE Cutted Demo';
 }
-
-.content-top {
-    margin: 30px 130px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.top-left {
-    display: flex;
-    flex: 5;
-    font-size: 26px;
-}
-
-.name1 {
-    font-weight: bold;
-}
-
-.name2 {
-    margin-left: 10px;
-}
-
-.top-right {
-    display: flex;
-    flex: 5;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 17px;
-}
-
-.menu {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.menu a {
-    color: black;
-    text-decoration: none;    
-}
-
-.content-mid {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-}
-
-.mid-part1 {
-    display: flex;
-    align-self: flex-end;
-    width: 90%;
-    height: 600px;
-}
-
-.part1-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
-}
-
-.part1-right {
-
-}
-
-.part1-left-title {
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: 40px;
-}
-
-.part1-left-content {
-    width: 65%;
-}
-
-.part1-left-button {
-    width: 200px;
-    height: 60px;
-    font-size: 25px;
-    margin-top: 40px;
-    background-color: blue;
-    color: white;
-    border-radius: 30px;
-    border : none;
-    position: relative;
-    z-index: 2;
-}
-
-.part1-left-image1 {
-    width: 500px;
-    height: 170px;
+.a-studio {
     position: absolute;
-    z-index: 1;
-    bottom: 75px;
-
+    top: 0px;
+    left: 0px;
 }
+.home {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    letter-spacing: 0.01em;
+    text-shadow: 0.2px 0 0 #000, 0 0.2px 0 #000, -0.2px 0 0 #000, 0 -0.2px 0 #000;
+}
+.what-we-do {
+    position: absolute;
+    top: 0px;
+    left: 105px;
+    letter-spacing: 0.01em;
+    text-shadow: 0.2px 0 0 #000, 0 0.2px 0 #000, -0.2px 0 0 #000, 0 -0.2px 0 #000;
+}
+.service {
+    position: absolute;
+    top: 0px;
+    left: 262px;
+    letter-spacing: 0.01em;
+    text-shadow: 0.2px 0 0 #000, 0 0.2px 0 #000, -0.2px 0 0 #000, 0 -0.2px 0 #000;
+}
+.project {
+    position: absolute;
+    top: 0px;
+    left: 377px;
+    letter-spacing: 0.01em;
+    text-shadow: 0.2px 0 0 #000, 0 0.2px 0 #000, -0.2px 0 0 #000, 0 -0.2px 0 #000;
+}
+.blog {
+    position: absolute;
+    top: 0px;
+    left: 490px;
+    letter-spacing: 0.01em;
+    text-shadow: 0.2px 0 0 #000, 0 0.2px 0 #000, -0.2px 0 0 #000, 0 -0.2px 0 #000;
+}
+.contact {
+    position: absolute;
+    top: 0px;
+    left: 584px;
+    letter-spacing: 0.01em;
+    text-shadow: 0.2px 0 0 #000, 0 0.2px 0 #000, -0.2px 0 0 #000, 0 -0.2px 0 #000;
+}
+.home-parent {
+    position: absolute;
+    top: 7px;
+    left: 555px;
+    width: 645px;
+    height: 20px;
+    font-size: 16px;
+    font-family: 'Averta Demo PE Cutted Demo';
+}
+.top-menu {
+    position: absolute;
+    top: 42px;
+    left: 120px;
+    width: 1200px;
+    height: 34px;
+    font-size: 27.15px;
+    font-family: 'Proxima Nova';
+}
+.dot-icon {
+    position: absolute;
+    top: 0px;
+    left: 208px;
+    width: 196px;
+    height: 154px;
+}
+.dot-icon1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 196px;
+    height: 154px;
+}
+.dot-ornament {
+    position: absolute;
+    top: 353px;
+    left: 0px;
+    width: 404px;
+    height: 154px;
+}
+.hero-headline-child {
+    position: absolute;
+    top: 430px;
+    left: 1074px;
+    border-radius: 0px 0px 100px 0px;
+    background-color: #fff5db;
+    width: 178px;
+    height: 178px;
+}
+.hero-headline-item {
+    position: absolute;
+    top: 0px;
+    left: 555px;
+    border-radius: 50%;
+    background-color: #dae9ff;
+    width: 129px;
+    height: 129px;
+}
+.anh1 {
+    position: absolute;
+    top: 0px;
+    left: 618px;
+    border-radius: 0px 0px 0px 200px;
+    width: 754px;
+    height: 512px;
+    object-fit: cover;
+}
+.a-digital-product {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.leading-digital-agency {
+    position: absolute;
+    top: 89px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+    display: inline-block;
+    width: 471px;
+}
+.contact-now {
+    position: relative;
+    letter-spacing: 0.07em;
+    text-shadow: 0.5px 0 0 #fff, 0 0.5px 0 #fff, -0.5px 0 0 #fff, 0 -0.5px 0 #fff;
+}
+.cta-contact-now {
+    position: absolute;
+    top: 200px;
+    left: 1px;
+    border-radius: 60px;
+    background-color: #2639ed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    font-size: 20px;
+    color: #fff;
+}
+.content {
+    position: absolute;
+    top: 123px;
+    left: 52px;
+    width: 471px;
+    height: 265px;
+}
+.hero-headline {
+    position: absolute;
+    top: 116px;
+    left: 68px;
+    width: 1372px;
+    height: 608px;
+    font-size: 40px;
+}
+.several-selected-clients {
+    position: absolute;
+    top: 66px;
+    left: 0px;
+    line-height: 160%;
+    display: inline-block;
+    width: 336px;
+}
+.our-client1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 40px;
+    color: #000;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.uber-eats-logo {
+    position: absolute;
+    top: 66px;
+    left: 832px;
+    width: 166.4px;
+    height: 27.7px;
+    overflow: hidden;
+}
+.airbnb-logo-icon {
+    position: absolute;
+    top: 54px;
+    left: 606px;
+    width: 166.4px;
+    height: 52.1px;
+    overflow: hidden;
+}
+.google-logo-icon {
+    position: absolute;
+    top: 56px;
+    left: 396px;
+    width: 150.5px;
+    height: 49.4px;
+    overflow: hidden;
+}
+.amazon-logo-icon {
+    position: absolute;
+    top: 71px;
+    left: 1058px;
+    width: 141.5px;
+    height: 42.6px;
+    overflow: hidden;
+}
+.our-client {
+    position: absolute;
+    top: 764px;
+    left: 120px;
+    width: 1199.5px;
+    height: 124px;
+    font-size: 18px;
+    color: #757575;
+}
+.how-can-we-help-child {
+    position: absolute;
+    top: 711px;
+    left: 1095px;
+    border-radius: 50%;
+    border: 8.8px solid #ff007a;
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+}
+.dot-icon2 {
+    position: absolute;
+    top: 0px;
+    left: 209px;
+    width: 196px;
+    height: 154px;
+}
+.dot-parent {
+    position: absolute;
+    top: 644px;
+    left: 43px;
+    width: 405px;
+    height: 154px;
+}
+.how-can-we-help-item {
+    position: absolute;
+    top: 140px;
+    left: 311px;
+    border-radius: 150px 0px 0px 0px;
+    background-color: #f4f9ff;
+    width: 1047px;
+    height: 619px;
+}
+.how-can-we-help-inner {
+    position: absolute;
+    top: 478px;
+    left: 178px;
+    border-radius: 0px 0px 100px 0px;
+    background-color: #fff5db;
+    width: 178px;
+    height: 178px;
+    transform:  rotate(-180deg);
+    transform-origin: 0 0;
+}
+.we-build-readymade {
+    position: absolute;
+    top: 128px;
+    left: 0px;
+    line-height: 160%;
+    display: inline-block;
+    width: 396px;
+}
+.how-can-we {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 358px;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.how-can-we-help-your-business-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    width: 358px;
+    height: 98px;
+    font-size: 40px;
+    color: #000;
+}
+.we-build-readymade-websites-m-parent {
+    position: absolute;
+    top: 360px;
+    left: 38px;
+    width: 396px;
+    height: 180px;
+    text-align: left;
+    color: #565656;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    width: 308px;
+    height: 379px;
+}
+.group-item {
+    position: absolute;
+    top: 39px;
+    left: 94px;
+    border-radius: 20px;
+    background-color: #f1f7ff;
+    width: 121px;
+    height: 121px;
+}
+.we-present-you {
+    position: absolute;
+    top: 278px;
+    left: 31px;
+    line-height: 140%;
+    display: inline-block;
+    width: 245px;
+}
+.box-search-1-icon {
+    position: absolute;
+    top: 63px;
+    left: 118px;
+    width: 74px;
+    height: 74px;
+    overflow: hidden;
+}
+.business-idea-planning {
+    position: absolute;
+    top: 191px;
+    left: 70px;
+    font-size: 24px;
+    color: #000;
+    display: inline-block;
+    width: 167px;
+    text-shadow: 0.3px 0 0 #000, 0 0.3px 0 #000, -0.3px 0 0 #000, 0 -0.3px 0 #000;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 79px;
+    left: 525px;
+    width: 308px;
+    height: 379px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 39px;
+    left: 94px;
+    border-radius: 20px;
+    background-color: #fff7e3;
+    width: 121px;
+    height: 121px;
+}
+.financial-planning-system {
+    position: absolute;
+    top: 191px;
+    left: 54px;
+    font-size: 24px;
+    color: #000;
+    display: inline-block;
+    width: 199px;
+    text-shadow: 0.3px 0 0 #000, 0 0.3px 0 #000, -0.3px 0 0 #000, 0 -0.3px 0 #000;
+}
+.rectangle-group {
+    position: absolute;
+    top: 0px;
+    left: 867px;
+    width: 308px;
+    height: 379px;
+}
+.group-child2 {
+    position: absolute;
+    top: 39px;
+    left: 94px;
+    border-radius: 20px;
+    background-color: #deffee;
+    width: 121px;
+    height: 121px;
+}
+.market-analysis-project {
+    position: absolute;
+    top: 191px;
+    left: 38px;
+    font-size: 24px;
+    color: #000;
+    display: inline-block;
+    width: 231px;
+    text-shadow: 0.3px 0 0 #000, 0 0.3px 0 #000, -0.3px 0 0 #000, 0 -0.3px 0 #000;
+}
+.rectangle-container {
+    position: absolute;
+    top: 409px;
+    left: 867px;
+    width: 308px;
+    height: 379px;
+}
+.group-child4 {
+    position: absolute;
+    top: 39px;
+    left: 94px;
+    border-radius: 20px;
+    background-color: #fff2f8;
+    width: 121px;
+    height: 121px;
+}
+.development-website-and {
+    position: absolute;
+    top: 191px;
+    left: 34px;
+    font-size: 24px;
+    color: #000;
+    display: inline-block;
+    width: 239px;
+    text-shadow: 0.3px 0 0 #000, 0 0.3px 0 #000, -0.3px 0 0 #000, 0 -0.3px 0 #000;
+}
+.group-div {
+    position: absolute;
+    top: 488px;
+    left: 525px;
+    width: 308px;
+    height: 379px;
+}
+.how-can-we-help {
+    position: absolute;
+    top: 982px;
+    left: 82px;
+    width: 1358px;
+    height: 867px;
+    text-align: center;
+    color: #757575;
+}
+.great-since-child {
+    position: absolute;
+    top: 307px;
+    left: 462px;
+    border-radius: 50%;
+    background-color: #fff5db;
+    width: 129px;
+    height: 129px;
+}
+.great-since-item {
+    position: absolute;
+    top: 58px;
+    left: 630px;
+    border-radius: 0px 0px 100px 0px;
+    background-color: #eff1ff;
+    width: 178px;
+    height: 178px;
+}
+.our-business-plan {
+    position: absolute;
+    top: 210px;
+    left: 668px;
+    line-height: 160%;
+    display: inline-block;
+    width: 532px;
+}
+.great-digital-product {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 468px;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.great-digital-product-agency-s-wrapper {
+    position: absolute;
+    top: 82px;
+    left: 669px;
+    width: 468px;
+    height: 98px;
+    font-size: 40px;
+    color: #000;
+}
+.unsplashbzqu01v-g54-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 32px;
+    width: 550px;
+    height: 372px;
+    object-fit: cover;
+}
+.play-rounded-button-1-child {
+    position: absolute;
+    height: 55.13%;
+    width: 55.13%;
+    top: 22.45%;
+    right: 18.34%;
+    bottom: 22.42%;
+    left: 26.53%;
+    background-color: #fff;
+}
+.group-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.play-rounded-button-1 {
+    position: absolute;
+    top: 140px;
+    left: 236px;
+    width: 78px;
+    height: 78px;
+    overflow: hidden;
+}
+.great-since {
+    position: absolute;
+    top: 1995px;
+    left: 120px;
+    width: 1200px;
+    height: 436px;
+    color: #565656;
+}
+.dot-icon4 {
+    position: absolute;
+    top: 166px;
+    left: 240px;
+    width: 196px;
+    height: 154px;
+}
+.happy-client-child {
+    position: absolute;
+    top: 465px;
+    left: 0px;
+    border-radius: 50%;
+    border: 8.8px solid #ff007a;
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+}
+.happy-client-item {
+    position: absolute;
+    top: 315px;
+    left: 937px;
+    border-radius: 50%;
+    background-color: #fff5db;
+    width: 184px;
+    height: 184px;
+}
+.unsplashmtztgvdshfy-icon {
+    position: absolute;
+    top: 208px;
+    left: 10px;
+    border-radius: 500px 0px 500px 500px;
+    width: 389px;
+    height: 389px;
+    object-fit: cover;
+}
+.several-selected-clients1 {
+    position: absolute;
+    top: 66px;
+    left: 319px;
+    line-height: 160%;
+    color: #757575;
+    display: inline-block;
+    width: 588px;
+}
+.what-our-happy {
+    position: absolute;
+    top: 0px;
+    left: 370px;
+    font-size: 40px;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.matthew-paul {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-shadow: 0.4px 0 0 #000, 0 0.4px 0 #000, -0.4px 0 0 #000, 0 -0.4px 0 #000;
+}
+.perfect-very-good {
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+    text-align: left;
+    display: inline-block;
+    width: 412px;
+}
+.ellipse-div {
+    position: absolute;
+    top: 169px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: #2639ed;
+    width: 16px;
+    height: 16px;
+}
+.group-child5 {
+    position: absolute;
+    top: 169px;
+    left: 42px;
+    border-radius: 50%;
+    background-color: #e7f0fc;
+    width: 16px;
+    height: 16px;
+}
+.group-child6 {
+    position: absolute;
+    top: 169px;
+    left: 84px;
+    border-radius: 50%;
+    background-color: #e7f0fc;
+    width: 16px;
+    height: 16px;
+}
+.group-child7 {
+    position: absolute;
+    top: 169px;
+    left: 126px;
+    border-radius: 50%;
+    background-color: #e7f0fc;
+    width: 16px;
+    height: 16px;
+}
+.group-child8 {
+    position: absolute;
+    top: 169px;
+    left: 168px;
+    border-radius: 50%;
+    background-color: #e7f0fc;
+    width: 16px;
+    height: 16px;
+}
+.matthew-paul-parent {
+    position: absolute;
+    top: 292px;
+    left: 466px;
+    width: 412px;
+    height: 185px;
+    font-size: 24px;
+}
+.happy-client-inner {
+    position: absolute;
+    top: 208px;
+    left: 916px;
+    width: 348px;
+    height: 355px;
+}
+.happy-client {
+    position: absolute;
+    top: 2548px;
+    left: 107px;
+    width: 1264px;
+    height: 597px;
+    text-align: center;
+    font-size: 18px;
+}
+.newsletter-child {
+    position: absolute;
+    top: 0px;
+    left: 1097px;
+    width: 175px;
+    height: 154px;
+}
+.newsletter-item {
+    position: absolute;
+    top: 209px;
+    left: 178px;
+    border-radius: 0px 0px 100px 0px;
+    background-color: #fff5db;
+    width: 178px;
+    height: 178px;
+    transform:  rotate(90deg);
+    transform-origin: 0 0;
+}
+.newsletter-inner {
+    position: absolute;
+    top: 56px;
+    left: 38px;
+    border-radius: 75px;
+    background-color: #f4f9ff;
+    width: 1197px;
+    height: 292px;
+}
+.rectangle-icon {
+    position: absolute;
+    top: 56px;
+    left: 692px;
+    width: 543px;
+    height: 292px;
+}
+.group-child9 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 60px;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+    width: 479px;
+    height: 80px;
+}
+.enter-your-email {
+    position: absolute;
+    top: 30px;
+    left: 34px;
+}
+.contact-now-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 281px;
+    border-radius: 60px;
+    background-color: #2639ed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    color: #fff;
+}
+.rectangle-parent1 {
+    position: absolute;
+    top: 162px;
+    left: 658px;
+    width: 479px;
+    height: 80px;
+}
+.i-will-update {
+    position: absolute;
+    top: 220px;
+    left: 130px;
+    font-size: 18px;
+    line-height: 160%;
+    color: #757575;
+    display: inline-block;
+    width: 588px;
+}
+.subscribe-newsletter {
+    position: absolute;
+    top: 154px;
+    left: 130px;
+    font-size: 40px;
+    color: #000;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.newsletter {
+    position: absolute;
+    top: 3237px;
+    left: 82px;
+    width: 1272px;
+    height: 387px;
+    color: #959595;
+}
+.a-studio1 {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    font-size: 24px;
+    font-family: 'Proxima Nova';
+}
+.what-we-do1 {
+    position: absolute;
+    top: 63px;
+    left: 461px;
+    font-size: 20px;
+    text-shadow: 0.4px 0 0 #000, 0 0.4px 0 #000, -0.4px 0 0 #000, 0 -0.4px 0 #000;
+}
+.company {
+    position: absolute;
+    top: 63px;
+    left: 731px;
+    font-size: 20px;
+    text-shadow: 0.4px 0 0 #000, 0 0.4px 0 #000, -0.4px 0 0 #000, 0 -0.4px 0 #000;
+}
+.support {
+    position: absolute;
+    top: 63px;
+    left: 944px;
+    font-size: 20px;
+    text-shadow: 0.4px 0 0 #000, 0 0.4px 0 #000, -0.4px 0 0 #000, 0 -0.4px 0 #000;
+}
+.contact1 {
+    position: absolute;
+    top: 63px;
+    left: 1124px;
+    font-size: 20px;
+    text-shadow: 0.4px 0 0 #000, 0 0.4px 0 #000, -0.4px 0 0 #000, 0 -0.4px 0 #000;
+}
+.web-design {
+    margin: 0;
+}
+.web-design-app-container {
+    position: absolute;
+    top: 112px;
+    left: 461px;
+    line-height: 200%;
+}
+.about-us-career-container {
+    position: absolute;
+    top: 112px;
+    left: 731px;
+    line-height: 200%;
+}
+.faq-policy-business-container {
+    position: absolute;
+    top: 112px;
+    left: 944px;
+    line-height: 200%;
+}
+.whatsapp-support-24-container {
+    position: absolute;
+    top: 112px;
+    left: 1124px;
+    line-height: 200%;
+}
+.footer-child {
+    position: absolute;
+    top: -0.5px;
+    left: -0.5px;
+    border-top: 1px solid #e4e4e4;
+    box-sizing: border-box;
+    width: 1201px;
+    height: 1px;
+}
+.footer-item {
+    position: absolute;
+    top: 308.5px;
+    left: -0.5px;
+    border-top: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    width: 1201px;
+    height: 1px;
+}
+.leading-digital-agency1 {
+    position: absolute;
+    top: 116px;
+    left: 0px;
+    line-height: 160%;
+    color: #565656;
+    display: inline-block;
+    width: 270px;
+}
+.facebook-icon {
+    position: absolute;
+    top: 244px;
+    left: 0px;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.twitter-icon {
+    position: absolute;
+    top: 244px;
+    left: 52px;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.linkedin-icon {
+    position: absolute;
+    top: 244px;
+    left: 104px;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.footer-inner {
+    position: absolute;
+    top: 308.5px;
+    left: -0.5px;
+    border-top: 1px solid #f1f1f1;
+    box-sizing: border-box;
+    width: 1201px;
+    height: 1px;
+}
+.copyright-2022 {
+    position: absolute;
+    top: 326px;
+    left: 507px;
+    line-height: 160%;
+    color: #a4a4a4;
+}
+.footer {
+    position: absolute;
+    top: 3731px;
+    left: 120px;
+    width: 1200px;
+    height: 348px;
+    font-size: 14px;
+}
+.landing-page-studio {
+    width: 100%;
+    position: relative;
+    background-color: #fefefe;
+    height: 4102px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Averta Demo PE Cutted Demo';
+}
+
